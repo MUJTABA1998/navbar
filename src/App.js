@@ -2,11 +2,10 @@ import "./App.css";
 import { ImFacebook, ImInstagram, ImTwitter } from "react-icons/im";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CgClose } from "react-icons/cg";
-import { useState, useLayoutEffect } from "react";
+import { useState } from "react";
 
 function App() {
   const [show, setShow] = useState(false);
-
 
   return (
     <div className="w-full h-auto bg-white drop-shadow-lg">
