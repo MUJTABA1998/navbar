@@ -7,13 +7,6 @@ import { useState, useLayoutEffect } from "react";
 function App() {
   const [show, setShow] = useState(false);
 
-  // useLayoutEffect(() => {
-  //   window.addEventListener("resize", function () {
-  //     if (window.innerWidth > 750) {
-  //       setShow(false);
-  //     }
-  //   });
-  // }, [setShow]);
 
   return (
     <div className="w-full h-auto bg-white drop-shadow-lg">
